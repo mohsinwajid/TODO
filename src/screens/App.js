@@ -13,9 +13,7 @@ export default class App extends Component {
   render() {
     Alert.alert('DF', 'DFFD')
     return (
-      <AuthProvider>
-        <Route/>
-      </AuthProvider>
+      <Navigation/>
     )
   }
 }
