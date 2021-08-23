@@ -25,7 +25,7 @@ export default class InputModal extends Component {
     };
     toggleModal = () => {
         this.setState({isModalVisible:!this.state.isModalVisible})
-    };
+    }; 
     getTask=(val)=>{
         this.setState({task:val});
     }
